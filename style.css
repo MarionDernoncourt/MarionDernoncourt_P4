@@ -585,13 +585,17 @@ a[data-lightbox]:hover img {
   width: 90%;
   max-width: 900px;
   margin: 0 auto 0;
+  height: 100%;
 }
 
 #lightbox-modal .modal-dialog img {
-  max-height: 90vh;
+  /* max-height: 90vh; */
   margin: 0 auto;
+  height: 100%;
 }
-
+.modal-content {
+  height: 100%;
+}
 .lightbox-caption {
   padding: 20px;
   color: #fff;
@@ -647,6 +651,9 @@ a[data-lightbox]:hover img {
 
 .snapshot-lb .modal-body {
   padding-bottom: 45px;
+}
+.modal-body {
+  height: 100%;
 }
 
 .snapshot-lb .lightbox-caption {

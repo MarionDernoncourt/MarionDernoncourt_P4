@@ -29,12 +29,10 @@
     <script src="./js/jqBootstrapValidation.js"></script>
     <script src="./js/formHandler.js"></script>
 
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
-    </style>
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Roboto:wght@100;300;400;500;700&display=swap");
-    </style>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    
 
     <title>Contactez-nous !</title>
 
@@ -53,11 +51,11 @@
           <div class="container bloc-sm">
             <nav class="navbar row">
               <div class="navbar-header">
-                <img
+               <a href="index.html"> <img
                   src="img/la-chouette-agence.png"
                   alt="la chouette agence"
                   height="40"
-                />
+                /></a>
                 <button
                   id="nav-toggle"
                   type="button"
@@ -162,7 +160,7 @@
                   <label> Comment nous avez-vous connu ? </label>
                   <input
                     class="form-control"
-                    type="email"
+                    type="text"
 					value="Sur internet, un ami, ..."
                     required
                     id="input_504"
