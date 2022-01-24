@@ -6128,9 +6128,10 @@ a.thumbnail:hover {
 }
 
 .alert-warning {
-    color: #8a6d3b;
-    background-color: #fcf8e3;
-    border-color: #faebcc
+    color: #283354;
+    background-color: #fbdacb;
+    border-color: #f3976c;
+    font-weight: 500;
 }
 
 .alert-warning hr {
