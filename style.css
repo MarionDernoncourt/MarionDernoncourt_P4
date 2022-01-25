@@ -18,6 +18,8 @@ a:hover {
   cursor: pointer;
 }
 
+
+
 #page-loading-blocs-notifaction {
   position: fixed;
   top: 0;
@@ -353,6 +355,7 @@ a:hover {
 .nav > li a:hover,
 .nav > li a:focus {
   background: transparent;
+  text-decoration: underline;
 }
 
 .navbar-toggle {
@@ -725,16 +728,18 @@ h3 {
 }
 .preview .btn-atomic-tangerine {
   background-color: #283358 !important;
+  color: white;
 }
 
 .cta-hero {
   margin-top: 22px;
-  color: #283358 !important;
+  color: #ffffff;
   text-transform: uppercase;
   padding: 12px 28px 12px 28px;
   font-size: 16px;
   font-weight: 700;
 }
+
 
 .social {
   max-width: 400px;
@@ -811,7 +816,10 @@ h3 {
 
 .btn-atomic-tangerine {
   background: #f3976c;
-  color: #ffffff !important;
+  color: #283354  ;
+}
+.bnt-contact {
+  color: white;
 }
 
 .btn-atomic-tangerine:hover {
