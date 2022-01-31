@@ -4,9 +4,12 @@
     <meta charset="utf-8" />
     <meta
       name="description"
-      content="Besoin d'information sur la création de votre site web ou la refonte de celui ci? 
-    Envoyez un message on vous rappelle ! Contact la chouette agence Lyon"
+      content="Besoin d'information sur la création de votre site
+      web ou la refonte de celui ci? 
+      Envoyez un message on vous rappelle ! Contact la chouette
+      agence Lyon"
     />
+    <meta name="robots" content="index, follow" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, viewport-fit=cover"
@@ -47,7 +50,7 @@
           <div class="container bloc-sm">
             <nav class="navbar row">
               <div class="navbar-header">
-                <a href="index.html">
+                <a href="index.html" aria-label="page d'accueil">
                   <img
                     src="img/la-chouette-agence.png"
                     alt="la chouette agence"
@@ -71,13 +74,13 @@
               >
                 <ul class="site-navigation nav navbar-nav">
                   <li>
-                    <a href="index.html#expertise">L'agence</a>
+                    <a href="index.html#expertise" aria-label="Qui sommes nous?">L'agence</a>
                   </li>
                   <li>
-                    <a href="index.html#réalisations">Réalisations</a>
+                    <a href="index.html#réalisations" aria-label="Ce que nous avons déjà réalisés">Réalisations</a>
                   </li>
                   <li>
-                    <a href="page2.html">Contact</a>
+                    <a href="page2.html" aria-label="formulaire de contact">Contact</a>
                   </li>
                 </ul>
               </div>
@@ -88,7 +91,7 @@
 
         <!-- bloc-1-presentation -->
         <div
-          class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax"
+          class="bloc bgc-dark-slate-blue d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax"
           id="bloc-1-hero"
         >
           <div class="container bloc-lg">
@@ -112,6 +115,7 @@
       <!-- bloc-0 END -->
 
       <!-- bloc-6 -->
+      <main>
       <div class="bloc" id="bloc-6">
         <div class="container bloc-lg">
           <div class="row">
@@ -132,7 +136,7 @@
       <div class="bloc bgc-white l-bloc" id="bloc-7">
         <div class="container bloc-lg">
           <div class="row row-form">
-            <div class="col-sm-6">
+            <div class="col-sm-6" role="form">
               <form
                 id="form_1"
                 novalidate
@@ -176,6 +180,7 @@
                     nécessaire)<br /> </label
                   ><textarea
                     id="message"
+                    aria-label="Quel est votre projet ? "
                     class="form-control"
                     required
                     rows="4"
@@ -207,10 +212,11 @@
           </div>
         </div>
       </div>
+      </main>
       <!-- bloc-7 END -->
 
       <!-- ScrollToTop Button -->
-      <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"
+      <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')" aria-label="Remonter en haut de page"
         ><span class="fa fa-chevron-up"></span
       ></a>
       <!-- ScrollToTop Button END-->
@@ -224,28 +230,28 @@
                 <div class="row row-no-gutters social">
                   <div class="col-sm-3">
                     <div class="text-center">
-                      <a class="social" href="index.html"
+                      <a class="social" href="index.html" aria-label="Twitter"
                         ><span class="fa fa-twitter icon-md"></span
                       ></a>
                     </div>
                   </div>
                   <div class="col-sm-3">
                     <div class="text-center">
-                      <a class="social" href="index.html"
+                      <a class="social" href="index.html" aria-label="Facebook"
                         ><span class="fa fa-facebook icon-md"></span
                       ></a>
                     </div>
                   </div>
                   <div class="col-sm-3">
                     <div class="text-center">
-                      <a class="social" href="index.html"
+                      <a class="social" href="index.html" aria-label="Dribbble"
                         ><span class="fa fa-dribbble icon-md"></span
                       ></a>
                     </div>
                   </div>
                   <div class="col-sm-3">
                     <div class="text-center">
-                      <a class="social" href="index.html"
+                      <a class="social" href="index.html" aria-label="Instagram"
                         ><span class="fa fa-instagram icon-md"></span
                       ></a>
                     </div>
